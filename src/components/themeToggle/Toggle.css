@@ -1,0 +1,297 @@
+.firstThememain-div {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    background-color:  hsl(222, 26%, 31%);
+    width: 100%;
+}
+
+.secondThememain-div {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    background-color: hsl(0, 0%, 90%);
+    width: 100%;
+}
+.thirdThememain-div {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+    background-color: hsl(268, 75%, 9%);
+    width: 100%;
+}
+.top-div {
+    display:flex;
+    float: right;
+ 
+}
+.top-div p{
+padding-right: 10px;
+margin-bottom: 0px;
+}
+
+.bottom-div a{
+    padding-right: 10px;
+    font-family: LeagueSpartan;
+    }
+
+    .firstThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+    width: 390px;
+    margin-top: 30px;
+    }
+    .secondThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+    width: 390px;
+    margin-top: 30px;
+    }
+    .thirdThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 390px;
+    width: 390px;
+    margin-top: 30px;
+    }
+    .firstThemetop-container h4 {
+        position: relative;
+        top: 22%;
+        font-size:22px;
+        margin-top: 20px;
+        color: hsl(0, 0%, 100%);
+    }
+    .secondThemetop-container h4 {
+        position: relative;
+        top: 22%;
+        font-size:22px;
+        margin-top: 20px;
+        color: hsl(198, 20%, 13%);
+    }
+    .thirdThemetop-container h4 {
+        position: relative;
+        top: 22%;
+        font-size:22px;
+        margin-top: 20px;
+        color: hsl(52, 100%, 62%);
+    }
+
+    .bottom-div {
+        display: flex;
+      align-items: center;
+    }
+    #firstThemenumber {
+        display: flex;
+        justify-content: space-evenly;
+        top: 10%;
+    position: relative;
+    }
+    #secondThemenumber {
+        display: flex;
+        justify-content: space-evenly;
+        top: 10%;
+    position: relative;
+    }
+    #thirdThemenumber {
+        display: flex;
+        justify-content: space-evenly;
+        top: 10%;
+    position: relative;
+    }
+    #firstThemedots {
+        height: 20px;
+        display: flex;
+        place-items: flex-end;
+        position:relative;
+        bottom:0%;
+        right: 10%;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: hsl(223, 31%, 20%);
+        border-color: hsl(223, 31%, 20%);
+        
+    }
+    #secondThemedots {
+        height: 20px;
+        display: flex;
+        place-items: flex-end;
+        position:relative;
+        bottom:0%;
+        right: 10%;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color:  hsl(0, 5%, 81%);
+        border-color: hsl(0, 5%, 81%);
+       
+    }
+    #thirdThemedots {
+        height: 20px;
+        display: flex;
+        place-items: flex-end;
+        position:relative;
+        bottom:0%;
+        right: 10%;
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: hsl(268, 71%, 12%);
+        border-color: hsl(268, 71%, 12%);
+        
+    }
+    #theme {
+        display: block;
+    }
+
+    #second-item {
+        display: flex;
+    }
+    #second-item h4 {
+        padding-right: 30px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+    #firstThemenumber p {
+        padding-right:10px;
+        color: hsl(0, 0%, 100%);
+        font-size: 10px;
+    }
+    #secondThemenumber p {
+        padding-right:10px;
+      color:  hsl(198, 20%, 13%);
+      font-size: 10px;
+    }
+    #thirdThemenumber p {
+        padding-right:10px;
+        color: hsl(52, 100%, 62%);
+        font-size: 10px;
+    }
+        
+
+    #firstThemeradio{
+       opacity:0;
+       accent-color: tomato;
+       background-color: tomato;
+       border: 1px solid;
+       border-radius: 50%;
+       height: 13px;
+    }
+    #secondThemeradio{
+        opacity: 0;
+        accent-color: tomato;
+        background-color: tomato;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 13px;
+     }
+     #thirdThemeradio{
+        opacity: 0;
+        accent-color: tomato;
+        background-color: aqua;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 13px;
+     }
+
+     #firstThemeradio:checked{
+        opacity: 1;
+        align-self: baseline;
+        accent-color: tomato;
+        background-color: tomato;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 13px;
+     }
+     #secondThemeradio:checked{
+        opacity: 1;
+        align-self: baseline;
+        accent-color: tomato;
+        background-color: tomato;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 13px;
+     }
+     
+     #thirdThemeradio:checked{
+        opacity: 1;
+        align-self: baseline;
+        accent-color: tomato;
+        background-color: tomato;
+        border: 1px solid;
+        border-radius: 50%;
+        height: 13px;
+     }
+ 
+     #firstThemeradio:before {
+        content:'';
+        display:block;
+        width:100%;
+        height:100%;
+        border-radius:50%;    
+    }
+    #firstThemeradio:checked:before {
+        background:hsl(6, 63%, 50%);
+    }
+
+     #secondThemeradio:before {
+        content:'';
+        display:block;
+        width:100%;
+        height:100%;
+        border-radius:50%;    
+    }
+    #secondThemeradio:checked:before {
+        background:hsl(25, 98%, 40%);
+    }
+
+     #thirdThemeradio:before {
+        content:'';
+        display:block;
+        width:100%;
+        height:100%;
+        border-radius:50%;    
+    }
+    #thirdThemeradio:checked:before {
+        background:hsl(176, 100%, 44%);
+    }
+
+    
+ @media only screen and (max-width: 600px) {
+    .firstThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 75%;
+    margin-top: 30px;
+    }
+    .secondThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 30px;
+    }
+    .thirdThemetop-container {
+        margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 30px;
+    }
+      }

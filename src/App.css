@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.first-mode {
+  --font-color: #101212;
+  --ghost-color: #000000;
+  --body-bg-color: #ffffff;
+  --comp-container-color: #ebebeb;
+  --input-outline-color: #b5b5b5;
+  --card-hover-color: #cfcfcf85;
+  --icon-hover-color: #cacaca;
+  --common-color: #101212;
+}
+
+.second-mode {
+  --font-color: #cccccc;
+  --ghost-color: #ffffff;
+  --body-bg-color: #101212;
+  --comp-container-color: #1d1d1d;
+  --input-outline-color: #222222;
+  --card-hover-color: #27272785;
+  --icon-hover-color: #383838;
+  --common-color: #101212;
+}
+
+
+.third-mode {
+  --font-color: #cccccc;
+  --ghost-color: #ffffff;
+  --body-bg-color: #101212;
+  --comp-container-color: #1d1d1d;
+  --input-outline-color: #222222;
+  --card-hover-color: #27272785;
+  --icon-hover-color: #383838;
+  --common-color: #101212;
+}
+.attribution{
+  width: 127%;
+    margin-top: 10px;
+
+}

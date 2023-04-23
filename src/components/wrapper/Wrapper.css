@@ -1,0 +1,56 @@
+.firstThemewrapper {
+    width: 390px;
+    height: 85vh;
+    
+    border-radius: 10px;
+    background: transparent;
+    margin: auto;
+  }
+
+  .secondThemewrapper {
+    width: 390px;
+    height: 85vh;
+    
+    border-radius: 10px;
+    background: transparent;
+    margin: auto;
+  }
+
+  .thirdThemewrapper {
+    width: 390px;
+    height: 85vh;
+    
+    border-radius: 10px;
+ background: transparent;
+    margin: auto;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .firstThemewrapper {
+      width: 75%;
+      height: 85vh;
+      
+      border-radius: 10px;
+      background: transparent;
+      margin: auto;
+    }
+  
+    .secondThemewrapper {
+      width: 75%;
+      height: 85vh;
+      
+      border-radius: 10px;
+      background: transparent;
+      margin: auto;
+    }
+  
+    .thirdThemewrapper {
+      width: 75%;
+      height: 85vh;
+      
+      border-radius: 10px;
+   background: transparent;
+      margin: auto;
+    }
+  }
